@@ -1,4 +1,4 @@
-# Fontstealer
+# Fontpeddler
 
 Local Flask web app that bulk-converts **WOFF** / **WOFF2** font files to **OTF** / **TTF** and returns them in a zip.
 

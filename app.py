@@ -230,7 +230,7 @@ def convert():
                 ok_count += ok
                 fail_count += fail
         header = [
-            "Fontstealer conversion report",
+            "Fontpeddler conversion report",
             f"Inputs: {len(files)}    Converted: {ok_count}    Skipped: {fail_count}",
             f"target_format: {target_format}",
             "-" * 60,
@@ -245,7 +245,7 @@ INDEX_HTML = """<!doctype html>
 <head>
 <meta charset='utf-8' />
 <meta name='viewport' content='width=device-width, initial-scale=1' />
-<title>Fontstealer</title>
+<title>Fontpeddler</title>
 <style>
   :root {
     --bg: #F0F0F0;
@@ -453,7 +453,7 @@ INDEX_HTML = """<!doctype html>
 </div>
 
 <div class='wrap'>
-  <h1>Fontstealer</h1>
+  <h1>Fontpeddler</h1>
   <p class='sub'>Convert fonts between OTF, TTF, WOFF and WOFF2. Drop files below &mdash; they group by family automatically.</p>
 
   <div id='drop' class='drop'>
